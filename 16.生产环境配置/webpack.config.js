@@ -16,7 +16,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin')
 const ESLintWebpackPlugin = require("eslint-webpack-plugin")
 
-// 设置node环境变量 设置为production自动压缩js和html
+// 设置为production自动压缩js和html
+// 设置node环境变量：决定使用browserslist的那个环境
 process.env.NODE_ENV = 'production'
 
 // 复用loader

@@ -84,7 +84,7 @@ module.exports = {
   // 特点：只会在内存中编译打包，不会有任何输出
   // npx webpack serve
   devServer: {
-    // 项目构建后路径
+    // 静态文件目录（默认public目录）
     static: resolve(__dirname, 'dist'),
     // 启动gzip压缩
     compress: true,
